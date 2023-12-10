@@ -65999,7 +65999,7 @@ s.toString
 $.ajr.b=A.arM(s,!1,t.Nb)
 this.aZ()},
 N(a){var s=null,r=A.a([B.yC,B.yz],t.t_),q=$.a1i.aw()
-return A.ahI(s,B.jC,A.nH(s,new A.GG(new A.iX(B.zn,A.AT(A.kB(A.afx(A.a([new A.D2(s),A.kB(s,100,s),new A.tl(s),A.kB(s,65,s)],t.F),B.bi,B.cR,B.bu),s,85*q/100),s,s),s),s),s,new A.e8(s,s,s,s,s,new A.ok(B.fa,B.dr,B.dj,r,s,s),B.bf),s,s,s,s),s)}}
+return A.ahI(s,B.jC,A.nH(s,new A.GG(new A.iX(B.zn,A.AT(A.kB(A.afx(A.a([new A.D2(s),A.kB(s,30,s),new A.tl(s),A.kB(s,65,s)],t.F),B.bi,B.cR,B.bu),s,85*q/100),s,s),s),s),s,new A.e8(s,s,s,s,s,new A.ok(B.fa,B.dr,B.dj,r,s,s),B.bf),s,s,s,s),s)}}
 A.D2.prototype={
 N(a){var s=null
 return A.vj(A.a([A.kB(A.eO("Mohit Varma",A.a4(a).p3.y,s),s,s),new A.E4(s)],t.F),B.bi,B.pl,B.bu)}}
@@ -66027,7 +66027,7 @@ q=A.eO("Hi, I am ",A.a4(a).p3.y,n)
 p=A.a4(a).p3.y
 p.toString
 o=t.F
-return A.vj(A.a([A.nH(n,A.afx(A.a([A.vj(A.a([q,B.Ht,A.BO(new A.qE(A.a([A.G3("Mohit Varma"),A.G3("Mobile App Developer"),A.G3("Self-Learner"),A.G3("Enthusiastic"),A.G3("Traveller")],t.u6),new A.a6p(),!0,n),n,B.c8,!0,p,n,n,B.aY)],o),B.bi,B.cR,B.pm),B.Hv,B.LP,B.Hu,B.Hz],o),B.fC,B.cR,B.bu),n,n,60*r/100,n,n,40*s/100),new A.AX(n)],o),B.bi,B.pl,B.bu)}}
+return A.vj(A.a([A.nH(n,A.afx(A.a([A.vj(A.a([q,B.Ht,A.BO(new A.qE(A.a([A.G3("Mohit Varma"),A.G3("a Mobile App Developer"),A.G3("Self-Learner"),A.G3("Enthusiastic"),A.G3("a Traveller")],t.u6),new A.a6p(),!0,n),n,B.c8,!0,p,n,n,B.aY)],o),B.bi,B.cR,B.pm),B.Hv,B.LP,B.Hu,B.Hz],o),B.fC,B.cR,B.bu),n,n,80*r/100,n,n,40*s/100),new A.AX(n)],o),B.bi,B.pl,B.bu)}}
 A.a6q.prototype={
 $0(){var s=$.ajr.aw(),r=this.a.d
 r===$&&A.b()
@@ -66049,7 +66049,7 @@ A.E4.prototype={
 N(a){var s,r,q,p,o=null,n=A.aie(o,o,B.j,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o,o),m=A.a4(a).p3.z
 n=A.mH(A.eO("Home",m==null?o:m.cz(B.h),o),new A.Xm(),new A.Xn(),n)
 m=A.a4(a).p3.z
-m=A.mH(A.eO("Tech Stack",m==null?o:m.cz(B.h),o),new A.Xo(),new A.Xp(),o)
+m=A.mH(A.eO("Skills",m==null?o:m.cz(B.h),o),new A.Xo(),new A.Xp(),o)
 s=A.a4(a).p3.z
 s=A.mH(A.eO("My Work",s==null?o:s.cz(B.h),o),new A.Xq(),new A.Xr(),o)
 r=A.a4(a).p3.z
@@ -69087,7 +69087,7 @@ B.ys=new A.C(4292927712)
 B.yz=new A.C(4294278935)
 B.yA=new A.C(4294309365)
 B.yB=new A.C(4294638330)
-B.yC=new A.C(4294962776)
+B.yC=new A.C(4294964637)
 B.yE=new A.C(436207616)
 B.yF=new A.C(520093696)
 B.yG=new A.C(536870911)
@@ -70966,7 +70966,7 @@ B.L6=new A.r(!0,B.h,null,"Roboto",null,null,null,null,null,null,null,null,null,n
 B.KY=new A.r(!0,B.h,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"whiteMountainView labelMedium",null,null,null,null)
 B.KC=new A.r(!0,B.h,null,"Roboto",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"whiteMountainView labelSmall",null,null,null,null)
 B.LO=new A.cE(B.Kl,B.Lw,B.Lh,B.Jc,B.L9,B.Ki,B.Ly,B.JA,B.K1,B.L2,B.J4,B.Li,B.L6,B.KY,B.KC)
-B.LP=new A.pe("I'm an experienced Flutter and Android developer with more than 3.5 years of expertise in creating strong and scalable mobile applications. My love for mobile development and focus on details have enabled me to craft user-friendly apps that are both intuitive and surpass user expectations.",null,null,null,null)
+B.LP=new A.pe("I am a Mobile Application Developer and I love to create apps that would make life easy and enjoyable for people.\n\nI bring excitement and a forward-thinking approach to every project I work on. Turning ideas into reality, especially when faced with challenges, is something I really enjoy.\n\nIn my app development work, I make sure to include various tests, organize the code well, and use patterns that make it easy to understand. I also make sure the process of getting the app onto the App and Play store is automated.\n\nOutside of work, I like to read Books, Travelling and also I'm a big fan of Meditation and Yoga too.\n\nI enjoy talking to people and hearing new ideas. I'm always open to discussions, and I'm looking forward to connecting with you. Feel free to get in touch anytime! \ud83e\udd1d",null,null,null,null)
 B.Of=new A.a3l(0,"system")
 B.LQ=new A.wh(null)
 B.dj=new A.Ho(0,"clamp")
