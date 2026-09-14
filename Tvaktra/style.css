@@ -110,3 +110,85 @@ footer{background:var(--ink);color:#fff;padding:70px 0 25px}
   .newsletter-form .btn{width:100%;padding:15px}
   .footer-grid{grid-template-columns:1fr 1fr}
 }
+
+
+/* Product Dialog - only added feature */
+.product-dialog-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.25s ease;
+}
+
+.product-dialog-overlay.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.product-dialog {
+  width: min(500px, 90%);
+  background: #f8f5ef;
+  padding: 40px;
+  position: relative;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+  transform: scale(0.9);
+  transition: 0.25s ease;
+}
+
+.product-dialog-overlay.show .product-dialog {
+  transform: scale(1);
+}
+
+.product-dialog-close {
+  position: absolute;
+  top: 12px;
+  right: 15px;
+  border: none;
+  background: transparent;
+  font-size: 28px;
+  cursor: pointer;
+  color: #24211e;
+}
+
+.product-dialog-category {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #81776d;
+  margin-bottom: 12px;
+}
+
+.product-dialog h2 {
+  font-family: Georgia, serif;
+  font-size: 35px;
+  font-weight: normal;
+  margin-bottom: 15px;
+}
+
+.product-dialog p {
+  color: #686159;
+  line-height: 1.7;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.product-dialog-price {
+  font-family: Georgia, serif;
+  font-size: 24px;
+}
+
+@media (max-width: 600px) {
+  .product-dialog {
+    padding: 30px 25px;
+  }
+
+  .product-dialog h2 {
+    font-size: 28px;
+  }
+}
